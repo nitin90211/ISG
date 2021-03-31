@@ -15,6 +15,7 @@ export class HighlightDirective {
     this.theEvent.emit("yellow");
   }
 
+
   @HostListener('mouseleave') onmouseleave(){
     this.bgColor = 'transparent';
   }
